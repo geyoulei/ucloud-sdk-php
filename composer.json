@@ -1,0 +1,24 @@
+{
+    "name": "yiqun/ucloud-sdk-php",
+    "autoload": {
+        "psr-4": {
+            "Yiqun\\UcloudSdkPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "一二三",
+            "email": "3401146@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "^6.2.1|^7.0",
+        "psr/log": "1.*"
+    },
+    "autoload": {
+        "psr-4" : {
+            "UCloud\\": "src/"
+        }
+    }
+}
