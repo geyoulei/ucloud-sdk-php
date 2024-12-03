@@ -207,4 +207,24 @@ class DescribeImageRequest extends Request
     {
         $this->set("PriceSet", $priceSet);
     }
+
+    /**
+     * FuncType: 镜像归属,枚举值:["gpu","app","uhost"]。"gpu": 对gpu进行处理过的行业镜像；"app"：轻量云主机专用的镜像；"uhost"：云主机镜像市场的行业镜像。FuncType传参错误会被忽略
+     *
+     * @return string|null
+     */
+    public function getFuncType()
+    {
+        return $this->get("FuncType");
+    }
+
+    /**
+     * FuncType: 镜像归属,枚举值:["gpu","app","uhost"]。"gpu": 对gpu进行处理过的行业镜像；"app"：轻量云主机专用的镜像；"uhost"：云主机镜像市场的行业镜像。FuncType传参错误会被忽略
+     *
+     * @param string $funcType
+     */
+    public function setFuncType($funcType)
+    {
+        $this->set("FuncType", $funcType);
+    }
 }
