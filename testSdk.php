@@ -10,8 +10,8 @@ use UCloud\Core\Exception\UCloudException;
 use UCloud\UHost\Apis\CreateUHostInstanceRequest;
 use UCloud\UHost\Params\CreateUHostInstanceParamDisks;
 $clientaccount = new \UCloud\UAccount\UAccountClient([
-    "publicKey" => '4eZCGaHpmIaHfX55tKMMSdJ7mKBCzqWwi',
-    "privateKey" => 'Hzj4EhoxvJz3fFZmwF0TpP7HtsCuMrlusKbBwaU9S16T',
+    "publicKey" => '4aZCGaHpmIaHfX55tKMMSdJ7mKBCzqWwi',
+    "privateKey" => 'Azj4EhoxvJz3fFZmwF0TpP7HtsCuMrlusKbBwaU9S16T',
 ]);
 //$Projectdata =new GetProjectListRequest();
 //$clientaccount->getProjectList($Projectdata);
